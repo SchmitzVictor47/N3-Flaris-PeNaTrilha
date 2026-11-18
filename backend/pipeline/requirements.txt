@@ -1,0 +1,16 @@
+# Processamento (as versões de pyspark, pandas, pyarrow e pymongo seguem as constraints do Airflow 2.10.5)
+pyspark>=3.5,<3.6
+pandas
+pyarrow
+# Leitura do GPX e geocodificação reversa offline (base GeoNames)
+gpxpy==1.6.2
+reverse_geocoder==1.5.1
+babel
+# Captura pela Kaggle API
+kaggle==1.6.17
+requests
+# Carga, verificação e análises
+pymongo
+scikit-learn
+# Testes
+pytest

@@ -1,0 +1,257 @@
+{
+  "perfil_dificuldade": [
+    {
+      "_id": 1,
+      "trilhas": 582,
+      "distancia_media_km": 12.173350515463918,
+      "subida_media_m": 418.51202749140896,
+      "velocidade_media_kmh": 4.562199312714776
+    },
+    {
+      "_id": 2,
+      "trilhas": 2242,
+      "distancia_media_km": 13.139719000892061,
+      "subida_media_m": 867.1320249776985,
+      "velocidade_media_kmh": 3.6963737734165925
+    },
+    {
+      "_id": 3,
+      "trilhas": 2595,
+      "distancia_media_km": 14.847105973025048,
+      "subida_media_m": 1263.4312138728324,
+      "velocidade_media_kmh": 3.4702427745664743
+    },
+    {
+      "_id": 4,
+      "trilhas": 1085,
+      "distancia_media_km": 14.52199078341014,
+      "subida_media_m": 1318.0018433179723,
+      "velocidade_media_kmh": 3.547658986175115
+    },
+    {
+      "_id": 5,
+      "trilhas": 554,
+      "distancia_media_km": 13.502418772563177,
+      "subida_media_m": 1343.4837545126354,
+      "velocidade_media_kmh": 3.4654873646209388
+    },
+    {
+      "_id": 6,
+      "trilhas": 197,
+      "distancia_media_km": 13.20263959390863,
+      "subida_media_m": 1313.736040609137,
+      "velocidade_media_kmh": 3.5004568527918782
+    }
+  ],
+  "trilhas_por_grau": {
+    "2": 2808,
+    "6": 215,
+    "3": 2994,
+    "1": 815,
+    "4": 1271,
+    "5": 606
+  },
+  "t1_com_subida_acima_2000m": 7,
+  "sazonalidade": {
+    "janeiro": 521,
+    "fevereiro": 218,
+    "março": 322,
+    "abril": 544,
+    "maio": 633,
+    "junho": 707,
+    "julho": 799,
+    "agosto": 923,
+    "setembro": 769,
+    "outubro": 782,
+    "novembro": 527,
+    "dezembro": 578
+  },
+  "ranking_trilheiros": [
+    {
+      "usuario": "cristina",
+      "total_trilhas": 406,
+      "distancia_total_km": 7939.87,
+      "subida_total_m": 620201,
+      "dificuldade_maxima": "T5+",
+      "primeira_trilha": "2013-09-14T05:14:02+00:00",
+      "ultima_trilha": "2018-05-06T05:21:29+00:00"
+    },
+    {
+      "usuario": "ser59",
+      "total_trilhas": 329,
+      "distancia_total_km": 5832.88,
+      "subida_total_m": 507777,
+      "dificuldade_maxima": "T6-",
+      "primeira_trilha": "2011-07-03T04:28:25+00:00",
+      "ultima_trilha": "2018-05-10T05:14:58+00:00"
+    },
+    {
+      "usuario": "Felix",
+      "total_trilhas": 312,
+      "distancia_total_km": 3225.69,
+      "subida_total_m": 71821,
+      "dificuldade_maxima": "T5+",
+      "primeira_trilha": "2014-06-07T07:19:22+00:00",
+      "ultima_trilha": "2014-06-07T07:19:22+00:00"
+    },
+    {
+      "usuario": "Mo6451",
+      "total_trilhas": 275,
+      "distancia_total_km": 3059.91,
+      "subida_total_m": 97646,
+      "dificuldade_maxima": "T6-",
+      "primeira_trilha": "2015-10-25T09:36:47+00:00",
+      "ultima_trilha": "2017-10-17T08:10:34+00:00"
+    },
+    {
+      "usuario": "Poge",
+      "total_trilhas": 239,
+      "distancia_total_km": 4634.94,
+      "subida_total_m": 408321,
+      "dificuldade_maxima": "T5+",
+      "primeira_trilha": "2014-07-05T06:41:58+00:00",
+      "ultima_trilha": "2018-04-25T07:04:08+00:00"
+    },
+    {
+      "usuario": "Menek",
+      "total_trilhas": 213,
+      "distancia_total_km": 2449.56,
+      "subida_total_m": 195581,
+      "dificuldade_maxima": "T5+",
+      "primeira_trilha": "2010-01-01T00:00:00+00:00",
+      "ultima_trilha": "2018-05-10T04:53:01+00:00"
+    },
+    {
+      "usuario": "Riosambesi",
+      "total_trilhas": 191,
+      "distancia_total_km": 1228.98,
+      "subida_total_m": 155602,
+      "dificuldade_maxima": "T3+",
+      "primeira_trilha": "2010-06-30T07:49:03+00:00",
+      "ultima_trilha": "2018-04-26T07:17:45+00:00"
+    },
+    {
+      "usuario": "Gherard",
+      "total_trilhas": 165,
+      "distancia_total_km": 1938.31,
+      "subida_total_m": 94858,
+      "dificuldade_maxima": "T4",
+      "primeira_trilha": "2013-10-02T06:31:51+00:00",
+      "ultima_trilha": "2018-01-31T10:30:01+00:00"
+    },
+    {
+      "usuario": "Bergamotte",
+      "total_trilhas": 142,
+      "distancia_total_km": 2110.06,
+      "subida_total_m": 177328,
+      "dificuldade_maxima": "T6+",
+      "primeira_trilha": "2013-09-14T08:54:54+00:00",
+      "ultima_trilha": "2018-05-11T10:22:35+00:00"
+    },
+    {
+      "usuario": "SCM",
+      "total_trilhas": 138,
+      "distancia_total_km": 1751.51,
+      "subida_total_m": 82786,
+      "dificuldade_maxima": "T5",
+      "primeira_trilha": "2013-09-21T07:35:25+00:00",
+      "ultima_trilha": "2018-04-02T08:33:44+00:00"
+    }
+  ],
+  "proximidade_zermatt_10km": {
+    "total": 24,
+    "mais_proximas": [
+      {
+        "_id": "5afb248f8f80884aaad9e13e",
+        "titulo": "Neue Monte Rosa Hütte",
+        "dificuldade": {
+          "codigo": "T4"
+        },
+        "metricas": {
+          "distancia_km": 30.53
+        },
+        "distancia_ate_ponto_m": 170.0394511368197
+      },
+      {
+        "_id": "5afb24298f80884aaad9dbe7",
+        "titulo": "Zermatter Breithorn (4164 m) mit Akklimatisation",
+        "dificuldade": {
+          "codigo": "T4"
+        },
+        "metricas": {
+          "distancia_km": 13.67
+        },
+        "distancia_ate_ponto_m": 276.7144002126734
+      },
+      {
+        "_id": "5afb24128f80884aaad9da8d",
+        "titulo": "Hohbalmen : en circuit depuis Zermatt, retour par Zmutt",
+        "dificuldade": {
+          "codigo": "T2"
+        },
+        "metricas": {
+          "distancia_km": 17.75
+        },
+        "distancia_ate_ponto_m": 279.7081798611218
+      },
+      {
+        "_id": "5afb23978f80884aaad9d3f3",
+        "titulo": "Aufstieg zum Hotel du Trift",
+        "dificuldade": {
+          "codigo": "T3"
+        },
+        "metricas": {
+          "distancia_km": 3.71
+        },
+        "distancia_ate_ponto_m": 313.8345937960299
+      },
+      {
+        "_id": "5afb244d8f80884aaad9dddb",
+        "titulo": "Einlauftürchen nach Zmutt",
+        "dificuldade": {
+          "codigo": "T2"
+        },
+        "metricas": {
+          "distancia_km": 3.66
+        },
+        "distancia_ate_ponto_m": 319.2198247619612
+      }
+    ]
+  },
+  "trilhas_ate_50km_de_florianopolis": 0,
+  "filtro_t3_5a10km": {
+    "total": 647,
+    "indice": "dificuldade_grau_distancia_km"
+  },
+  "concentracao": {
+    "por_pais": {
+      "Suíça": 3507,
+      "Itália": 3062,
+      "Alemanha": 734,
+      "Áustria": 702,
+      "França": 221,
+      "Estados Unidos": 77,
+      "Espanha": 72,
+      "Liechtenstein": 33
+    },
+    "nos_alpes": 7987,
+    "percentual_alpes": 91.7
+  },
+  "estimativa_tempo": {
+    "trilhas_completas": 7255,
+    "treino": 5804,
+    "teste": 1451,
+    "erro_medio_regressao_min": 39.7,
+    "erro_medio_naismith_min": 49.7
+  },
+  "recomendacao": {
+    "referencia": "5afb229e8f80884aaad9c6ea",
+    "parecidas": [
+      "5afb245a8f80884aaad9de8d",
+      "5afb24528f80884aaad9de37",
+      "5afb25838f80884aaad9ee70",
+      "5afb25228f80884aaad9e960",
+      "5afb24fb8f80884aaad9e739"
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "_id": "20261117T223108",
+  "status": "sucesso",
+  "origem": "airflow:manual__2026-11-17T22:31:08+00:00",
+  "dataset": "roccoli/gpx-hike-tracks",
+  "sha256": "f1e2e10f3cef451600a6e3613ec48233be3fa13076f45db4e296377338f016be",
+  "captura": {
+    "lote_id": "20261117T223108",
+    "dataset": "roccoli/gpx-hike-tracks",
+    "versao_dataset": 1,
+    "dataset_atualizado_em": "2018-06-17T17:12:53.407Z",
+    "licenca": "CC0: Public Domain",
+    "metodo": "kaggle-api-http",
+    "arquivo": "/opt/airflow/dados/bronze/kaggle/roccoli_gpx-hike-tracks/sha256=f1e2e10f3cef4516/gpx-hike-tracks.zip",
+    "tamanho_bytes": 60292683,
+    "sha256": "f1e2e10f3cef451600a6e3613ec48233be3fa13076f45db4e296377338f016be",
+    "capturado_em": "2026-11-17T22:31:18.630337+00:00"
+  },
+  "iniciado_em": "2026-11-17T22:31:18.630337+00:00",
+  "finalizado_em": "2026-11-17T22:34:35.192660+00:00",
+  "contagens": {
+    "prata": {
+      "etapa": "leitura_validacao_limpeza",
+      "lote_id": "20261117T223108",
+      "arquivo_csv": "/opt/airflow/dados/trabalho/sha256=f1e2e10f3cef4516/gpx-tracks-from-hikr.org.csv",
+      "linhas_lidas": 12141,
+      "linhas_malformadas": 0,
+      "length_3d_igual_length_2d": true,
+      "duplicatas_removidas": 2993,
+      "trilhas_unicas": 9148,
+      "quarentena": {
+        "gpx_sem_trilha_gravada": 402,
+        "distancia_acima_100km": 29,
+        "distancia_abaixo_0_5km": 7,
+        "gpx_xml_invalido": 1
+      },
+      "quarentena_total": 439,
+      "trilhas_validas": 8709,
+      "sem_data_hora": 1273,
+      "tempo_invalido": 113,
+      "sem_elevacao": 734,
+      "velocidade_max_descartada": 99,
+      "nome_ajustado": 475,
+      "provavel_bike_ou_esqui": 311,
+      "subida_atipica": 33,
+      "trilhas_completas": 7255,
+      "trilheiros": 372,
+      "colunas_descartadas": [
+        "length_3d",
+        "bounds"
+      ],
+      "camada_prata": "/opt/airflow/dados/prata/trilhas",
+      "camada_quarentena": "/opt/airflow/dados/quarentena/trilhas/lote_id=20261117T223108"
+    },
+    "ouro": {
+      "trilhas": 8709,
+      "trilheiros": 372,
+      "percursos": 8709
+    },
+    "carga": {
+      "etapa": "carga_mongodb",
+      "lote_id": "20261117T223108",
+      "banco": "penatrilha",
+      "conector": "org.mongodb.spark:mongo-spark-connector_2.12:10.4.1",
+      "operacao": "replace com upsert por _id",
+      "ids_manuais_protegidos": 0,
+      "documentos_enviados": {
+        "trilhas": 8709,
+        "percursos": 8709,
+        "trilheiros": 372
+      }
+    },
+    "mongodb": {
+      "trilhas_total": 8709,
+      "trilhas_importadas": 8709,
+      "trilhas_manuais": 0,
+      "trilhas_completas": 7255,
+      "trilheiros": 372,
+      "percursos": 8709,
+      "pontos_gps": 1452312,
+      "ids_nao_objectid": 0,
+      "titulos_nao_texto": 0,
+      "indices": [
+        "_id_",
+        "localizacao_inicio_2dsphere",
+        "dificuldade_grau_distancia_km",
+        "trilheiro_id",
+        "titulo_texto"
+      ]
+    }
+  },
+  "preparo_mongodb": {
+    "etapa": "preparar_mongodb",
+    "lote_id": "20261117T223108",
+    "banco": "penatrilha",
+    "trilhas_manuais_marcadas": 0,
+    "trilhas_manuais_total": 0,
+    "indices_criados": [
+      "localizacao_inicio_2dsphere",
+      "dificuldade_grau_distancia_km",
+      "trilheiro_id",
+      "titulo_texto"
+    ],
+    "avisos": []
+  },
+  "comparacao_n2": [
+    {
+      "metrica": "linhas_lidas",
+      "n2": 12141,
+      "n3": 12141,
+      "igual": true
+    },
+    {
+      "metrica": "duplicatas_removidas",
+      "n2": 2993,
+      "n3": 2993,
+      "igual": true
+    },
+    {
+      "metrica": "trilhas_unicas",
+      "n2": 9148,
+      "n3": 9148,
+      "igual": true
+    },
+    {
+      "metrica": "quarentena_total",
+      "n2": 439,
+      "n3": 439,
+      "igual": true
+    },
+    {
+      "metrica": "quarentena: gpx_sem_trilha_gravada",
+      "n2": 402,
+      "n3": 402,
+      "igual": true
+    },
+    {
+      "metrica": "quarentena: distancia_acima_100km",
+      "n2": 29,
+      "n3": 29,
+      "igual": true
+    },
+    {
+      "metrica": "quarentena: distancia_abaixo_0_5km",
+      "n2": 7,
+      "n3": 7,
+      "igual": true
+    },
+    {
+      "metrica": "quarentena: gpx_xml_invalido",
+      "n2": 1,
+      "n3": 1,
+      "igual": true
+    },
+    {
+      "metrica": "trilhas_validas",
+      "n2": 8709,
+      "n3": 8709,
+      "igual": true
+    },
+    {
+      "metrica": "sem_data_hora",
+      "n2": 1273,
+      "n3": 1273,
+      "igual": true
+    },
+    {
+      "metrica": "tempo_invalido",
+      "n2": 113,
+      "n3": 113,
+      "igual": true
+    },
+    {
+      "metrica": "sem_elevacao",
+      "n2": 734,
+      "n3": 734,
+      "igual": true
+    },
+    {
+      "metrica": "velocidade_max_descartada",
+      "n2": 99,
+      "n3": 99,
+      "igual": true
+    },
+    {
+      "metrica": "provavel_bike_ou_esqui",
+      "n2": 311,
+      "n3": 311,
+      "igual": true
+    },
+    {
+      "metrica": "subida_atipica",
+      "n2": 33,
+      "n3": 33,
+      "igual": true
+    },
+    {
+      "metrica": "nome_ajustado",
+      "n2": 475,
+      "n3": 475,
+      "igual": true
+    },
+    {
+      "metrica": "trilhas_completas",
+      "n2": 7255,
+      "n3": 7255,
+      "igual": true
+    },
+    {
+      "metrica": "trilheiros",
+      "n2": 372,
+      "n3": 372,
+      "igual": true
+    },
+    {
+      "metrica": "percursos",
+      "n2": 8709,
+      "n3": 8709,
+      "igual": true
+    }
+  ],
+  "divergencias": []
+}
